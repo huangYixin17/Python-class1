@@ -6,3 +6,6 @@ python clas
 消夜:
 1.居酒屋18~1.
 https://hoolee.tw/sumikikori/
+
+餐廳:
+牛舌:https://impoca.com/sumiya/
