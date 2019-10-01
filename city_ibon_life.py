@@ -4,7 +4,7 @@ import pandas as pd
 # 建立一個縣市的list
 city = ['基隆市', '台北市', '新北市', '桃園市', '新竹市','新竹縣','苗栗縣','台中市','彰化縣', '雲林縣', '南投縣', '嘉義縣', '嘉義市', '台南市', '高雄市', '屏東縣', '台東縣', '花蓮縣', '宜蘭縣', '連江縣', '金門縣', '澎湖縣']
 #使用迴圈來依序取得每一個城市的門市資訊
-for index, city in enumerate(city):
+for index, city in enumerate(city):  #使用'enumerate'是python的函式
         #剛剛在開發者模式觀察到的Post發出的資訊是那些
     data = {'strTargetField':'COUNTY','strKeyWords':'%s' % city}
     res = requests.post('http://www.ibon.com.tw/retail_inquiry_ajax.aspx', data=data)
