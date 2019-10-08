@@ -7,7 +7,7 @@ response = requests.get(url)
 response = json.loads(response.text)
 
 #找自己的ip位置
-print("ip: %s" % response['ip_addr'])
+print("ip: %s" % response['ip_addr'])   #字典使用方式 字典名['值']
 print('host：%s' % response['remote_host'])
 print('user：%s' % response['user_agent'])
 print('port：%s' % response['port'])
