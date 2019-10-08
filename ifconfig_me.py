@@ -1,10 +1,10 @@
 ﻿# -*- coding: utf-8 -*-
-import requests
+import requests  #取得網址內容
 import json
 url = 'http://ifconfig.me/all.json'  #網址ifconfig.me的json檔
 response = requests.get(url)
 #print('Content-Length:', response.headers['Content-Length'])
-response = json.loads(response.text)
+response = json.loads(response.text) #轉成json
 
 #找自己的ip位置
 print("ip: %s" % response['ip_addr'])   #字典使用方式 字典名['值']
