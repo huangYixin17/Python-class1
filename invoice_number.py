@@ -5,7 +5,7 @@ Created on Thu Oct  3 20:54:25 2019
 @author: user
 """
 
-from __future__ import unicode_literals, print_function 
+from __future__ import unicode_literals, print_function #unicode國際編碼
 import urllib
 from bs4 import BeautifulSoup
 import urllib.request
