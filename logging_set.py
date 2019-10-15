@@ -6,7 +6,7 @@ Created on Thu Oct  3 20:01:53 2019
 """
 
 import logging #為應用程式,函示酷的類別進行事件紀錄
-import time    #時間模組
+#import time    #時間模組
 
 #handler是log的輸出方式,import RotatingFileHandler是可以讓文件到達一定大小(檔案大小)
 #新增一個新的文件,例如:test.log.1,test.log.2
